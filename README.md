@@ -1,6 +1,6 @@
-# **MLera Linear Regression Module - Internship Assignment**
+# **MLera Linear Regression Module**
 
-This repository contains my submission for the MLera frontend development internship assignment. It is a pixel-perfect recreation of the Linear Regression learning module, built with Next.js 14, Tailwind CSS, and Recharts.
+This repository contains the MLera frontend development. It is a pixel-perfect recreation of the Linear Regression learning module, built with Next.js 14, Tailwind CSS, and Recharts.
 
 ## **🚀 Live Link**
 
@@ -20,15 +20,15 @@ Vercel Deployment: https://mlera-linear-regression-r4pe.vercel.app/
 
 ## **✨ Features**
 
-Pixel-Perfect UI: Recreated the "Introduction" and "Build" pages exactly as shown in the assignment video, including the specific Deep Purple (#0f0a1e) color palette.
+**Pixel-Perfect UI:** Recreated the "Introduction" and "Build" pages exactly as shown in the assignment video, including the specific Deep Purple (#0f0a1e) color palette.
 
-Interactive Graphs: - Concept Visualization: A scatter plot with draggable sliders for Slope and Intercept that updates the Mean Squared Error (MSE) in real-time.
+**Interactive Graphs:** - Concept Visualization: A scatter plot with draggable sliders for Slope and Intercept that updates the Mean Squared Error (MSE) in real-time.
 
-Model Training: A simulation of the training process showing the Regression Line fitting the data and the Cost Function decreasing over iterations.
+**Model Training:** A simulation of the training process showing the Regression Line fitting the data and the Cost Function decreasing over iterations.
 
-Dark/Light Mode: A fully functional theme toggle that switches the entire application (including charts and borders) between Light and Dark modes.
+**Dark/Light Mode:** A fully functional theme toggle that switches the entire application (including charts and borders) between Light and Dark modes.
 
-Responsive Design: Fully adaptive layout that works seamlessly on desktop and mobile devices.
+**Responsive Design:** Fully adaptive layout that works seamlessly on desktop and mobile devices.
 
 ## **📂 Project Structure**
 
