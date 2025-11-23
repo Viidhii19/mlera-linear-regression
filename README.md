@@ -1,20 +1,24 @@
-#**MLera Linear Regression Module - Internship Assignment**
+# **MLera Linear Regression Module - Internship Assignment**
 
 This repository contains my submission for the MLera frontend development internship assignment. It is a pixel-perfect recreation of the Linear Regression learning module, built with Next.js 14, Tailwind CSS, and Recharts.
 
-#**🚀 Live Link**
+## **🚀 Live Link**
 
 Vercel Deployment: https://mlera-linear-regression-r4pe.vercel.app/
 
-#**🛠️ Tech Stack**
+## **🛠️ Tech Stack**
 
 **Framework:** Next.js 14 (App Router)
+
 **Styling:** Tailwind CSS (Custom Theme Configuration)
+
 **Visualization:** Recharts (Interactive Scatter & Line Charts)
+
 **Icons:** Lucide React
+
 **Theming:** Next-themes (Dark/Light Mode)
 
-#**✨ Features**
+## **✨ Features**
 
 Pixel-Perfect UI: Recreated the "Introduction" and "Build" pages exactly as shown in the assignment video, including the specific Deep Purple (#0f0a1e) color palette.
 
@@ -26,7 +30,7 @@ Dark/Light Mode: A fully functional theme toggle that switches the entire applic
 
 Responsive Design: Fully adaptive layout that works seamlessly on desktop and mobile devices.
 
-#**📂 Project Structure**
+## **📂 Project Structure**
 
 src/
 ├── app/
