@@ -32,6 +32,7 @@ Vercel Deployment: https://mlera-linear-regression-r4pe.vercel.app/
 
 ## **📂 Project Structure**
 
+```
 src/
 ├── app/
 │   ├── page.jsx              # Introduction / Content Page
@@ -45,3 +46,4 @@ src/
     ├── ThemeToggle.jsx       # Dark/Light Mode Switcher
     └── InteractiveGraph.jsx  # Reusable Chart Component
 
+```
