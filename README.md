@@ -1,36 +1,43 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+#**MLera Linear Regression Module - Internship Assignment**
 
-## Getting Started
+This repository contains my submission for the MLera frontend development internship assignment. It is a pixel-perfect recreation of the Linear Regression learning module, built with Next.js 14, Tailwind CSS, and Recharts.
 
-First, run the development server:
+#**🚀 Live Link**
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Vercel Deployment: https://mlera-linear-regression-r4pe.vercel.app/
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+#**🛠️ Tech Stack**
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+**Framework:** Next.js 14 (App Router)
+**Styling:** Tailwind CSS (Custom Theme Configuration)
+**Visualization:** Recharts (Interactive Scatter & Line Charts)
+**Icons:** Lucide React
+**Theming:** Next-themes (Dark/Light Mode)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+#**✨ Features**
 
-## Learn More
+Pixel-Perfect UI: Recreated the "Introduction" and "Build" pages exactly as shown in the assignment video, including the specific Deep Purple (#0f0a1e) color palette.
 
-To learn more about Next.js, take a look at the following resources:
+Interactive Graphs: - Concept Visualization: A scatter plot with draggable sliders for Slope and Intercept that updates the Mean Squared Error (MSE) in real-time.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Model Training: A simulation of the training process showing the Regression Line fitting the data and the Cost Function decreasing over iterations.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Dark/Light Mode: A fully functional theme toggle that switches the entire application (including charts and borders) between Light and Dark modes.
 
-## Deploy on Vercel
+Responsive Design: Fully adaptive layout that works seamlessly on desktop and mobile devices.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+#**📂 Project Structure**
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+src/
+├── app/
+│   ├── page.jsx              # Introduction / Content Page
+│   ├── build/
+│   │   └── page.jsx          # Model Building Page
+│   ├── globals.css           # Global styles & Tailwind directives
+│   ├── layout.jsx            # Main layout wrapper
+│   └── providers.jsx         # Dark Mode Provider
+└── components/
+    ├── Navbar.jsx            # Responsive Navigation Bar
+    ├── ThemeToggle.jsx       # Dark/Light Mode Switcher
+    └── InteractiveGraph.jsx  # Reusable Chart Component
+
