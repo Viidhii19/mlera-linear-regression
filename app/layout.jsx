@@ -1,6 +1,5 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
-// Fixed: Changed alias '@/' to relative path '../' to ensure resolution
 import Navbar from "../components/Navbar"; 
 import { Providers } from "./providers";
 
