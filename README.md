@@ -38,7 +38,7 @@ Math Typesetting: KaTeX (Professional mathematical notation)
 **Responsive Design:** Fully adaptive layout that works seamlessly on desktop and mobile devices.
 
 ## 📂 Project Structure
-
+```
 src/
 ├── app/
 │   ├── page.jsx              # Introduction / Content Page
@@ -51,8 +51,7 @@ src/
     ├── Navbar.jsx            # Responsive Navigation Bar
     ├── ThemeToggle.jsx       # Dark/Light Mode Switcher
     └── InteractiveGraph.jsx  # Reusable Chart Component
-
-
+```
 ## 💻 Getting Started (Run Locally)
 
 Clone the repository:
