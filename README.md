@@ -56,7 +56,7 @@ src/
 
 Clone the repository:
 
-git clone [PASTE YOUR GITHUB LINK HERE]
+git clone https://github.com/Viidhii19/mlera-linear-regression
 
 
 Install dependencies:
